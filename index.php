@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Number Generator</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    
 </head>
     <body>
         <header>
@@ -16,11 +17,12 @@
             <h1>Random Number Generator</h1>
             <?php
             // Declare a variable with a random number from 1 to 100
-            $randomNumber = rand(1, 100);
+            $randomNumber = rand(1, 10);
 
             // Display the random number
             echo '<div class="random-number">' . $randomNumber . '</div>';
             ?>
+            <a href="page/index.php?number=<?php echo $randomNumber; ?>" class="btn-compliments">See Compliments</a>
             <div class="refresh-note">Refresh the page to generate a new number</div>
         </div>
     </body>
