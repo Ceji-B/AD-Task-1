@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ceji-B/">
-    <img src="./assets/img/logocat.png" alt="meh" width="230" height="200">
+    <img src="./assets/img/logocat.png" alt="meh" width="230" height="230">
   </a>
 
   <h3 align="center">Hands On 1</h3>
