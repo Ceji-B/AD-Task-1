@@ -16,10 +16,10 @@
         <div class="container">
             <h1>Random Number Generator</h1>
             <?php
-            // Declare a variable with a random number from 1 to 100
+            
             $randomNumber = rand(1, 10);
 
-            // Display the random number
+            
             echo '<div class="random-number">' . $randomNumber . '</div>';
             ?>
             <a href="page/index.php?number=<?php echo $randomNumber; ?>" class="btn-compliments">See Compliments</a>

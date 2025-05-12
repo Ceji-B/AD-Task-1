@@ -14,13 +14,13 @@
     </header>
     <div class="container">
         <?php
-        // Read the number from the query parameter
+        
         $number = 0;
         if (isset($_GET['number'])) {
             $number = intval($_GET['number']);
         }
 
-        // Array of compliments
+        
         $compliments = array(
             "You have a great sense of humor!",
             "Your positivity is infectious.",
@@ -34,14 +34,14 @@
             "You are incredibly thoughtful."
         );
 
-        // Calculate how many compliments to show based on the number
+        
         $countCompliments = count($compliments);
         $numToShow = ($number % $countCompliments) ? $number : 10;
 
-        // Calculate start index to vary compliments shown
+        
         $startIndex = $number % $countCompliments;
 
-        // Loop to display compliments starting from startIndex, wrapping around
+        
         $index = 0;
         while ($index < $numToShow) {
             $complimentIndex = ($startIndex + $index) % $countCompliments;
