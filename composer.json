@@ -1,6 +1,6 @@
 
 {
-    "name": "cj/ad-task-2",
+    "name": "cj/ad-task-1",
     "type": "project",
     "autoload": {
         "psr-4": {
